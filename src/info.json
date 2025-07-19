@@ -4,7 +4,7 @@
 	"category": "translate",
 	"name": "剑桥词典",
 	"summary": "剑桥词典",
-	"icon": "105",
+	"icon": "147",
 	"author": "bigcat",
 	"homepage": "https://github.com/xingty/bob-plugin-youdao-cambridge",
 	"appcast": "https://raw.githubusercontent.com/xingty/bob-plugin-youdao-cambridge/main/appcast.json",
