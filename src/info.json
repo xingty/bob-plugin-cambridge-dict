@@ -6,8 +6,8 @@
 	"summary": "剑桥词典",
 	"icon": "147",
 	"author": "bigcat",
-	"homepage": "https://github.com/xingty/bob-plugin-youdao-cambridge",
-	"appcast": "https://raw.githubusercontent.com/xingty/bob-plugin-youdao-cambridge/main/appcast.json",
+	"homepage": "https://github.com/xingty/bob-plugin-cambridge-dict",
+	"appcast": "https://raw.githubusercontent.com/xingty/bob-plugin-cambridge-dict/main/appcast.json",
 	"minBobVersion": "0.5.0",
 	"options": [
     {
