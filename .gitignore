@@ -8,3 +8,5 @@ build/*
 .DS_Store
 *.bobplugin
 .origin
+
+build_dev.sh

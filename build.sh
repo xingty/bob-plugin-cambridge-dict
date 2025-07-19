@@ -13,5 +13,3 @@ fi
 cd src
 zip -r ../build/bob-plugin-cambridge-dict_v$version.bobplugin . *
 cd ..
-
-open build/bob-plugin-cambridge-dict_v$version.bobplugin
