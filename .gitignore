@@ -1,0 +1,10 @@
+HELP.md
+target/*
+
+
+### VS Code ###
+.vscode/
+build/*
+.DS_Store
+*.bobplugin
+.origin

@@ -1,0 +1,91 @@
+{
+	"identifier": "org.wiyi.plugin.cambridge",
+  "version": "0.0.1",
+	"category": "translate",
+	"name": "剑桥词典",
+	"summary": "剑桥词典",
+	"icon": "105",
+	"author": "bigcat",
+	"homepage": "https://github.com/xingty/bob-plugin-youdao-cambridge",
+	"appcast": "https://raw.githubusercontent.com/xingty/bob-plugin-youdao-cambridge/main/appcast.json",
+	"minBobVersion": "0.5.0",
+	"options": [
+    {
+      "identifier": "type",
+      "type": "menu",
+      "title": "单词数",
+      "defaultValue": "0",
+      "menuValues": [
+        {
+          "title": "总是翻译",
+          "value": "0"
+        },
+        {
+          "title": "1",
+          "value": "1"
+        },
+        {
+          "title": "2",
+          "value": "2"
+        },
+        {
+          "title": "3",
+          "value": "3"
+        },
+        {
+          "title": "4",
+          "value": "4"
+        },
+        {
+          "title": "5",
+          "value": "5"
+        },
+        {
+          "title": "6",
+          "value": "6"
+        },
+        {
+          "title": "7",
+          "value": "7"
+        },
+        {
+          "title": "8",
+          "value": "8"
+        },
+        {
+          "title": "9",
+          "value": "9"
+        },
+        {
+          "title": "10",
+          "value": "10"
+        },
+        {
+          "title": "15",
+          "value": "15"
+        },
+        {
+          "title": "20",
+          "value": "20"
+        }
+      ],
+      "desc": "单词数大于这个值插件不翻译"
+    },
+    {
+      "identifier": "url",
+      "type": "text",
+      "title": "API URL",
+      "desc": "cambridge词典API地址",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "https://github.com/xingty/cambridge"
+      }
+    },
+    {
+      "identifier": "secret",
+      "type": "text",
+      "title": "Secret",
+      "desc": "网页API不需填写"
+    }
+	]
+}
