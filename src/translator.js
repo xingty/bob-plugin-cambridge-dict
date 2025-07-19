@@ -1,6 +1,5 @@
 var request = require('./api-request');
-var logger = require('./logger');
-var config = require('./config');
+var c = require('./config');
 
 function translate(text,from='auto',to='auto') {
   return doTranslate(
@@ -9,8 +8,8 @@ function translate(text,from='auto',to='auto') {
 }
 
 async function doTranslate(text,from, to,secret) {
-  const url = $option.url + '?keyword=' + text;
-  logger.info("config: " + JSON.stringify(config.getConfig()));
+  let config = c.getConfig();
+  const url = config.api_url + '?keyword=' + text;
 
   try {
     let resp = await request.query({},url, 'GET');
