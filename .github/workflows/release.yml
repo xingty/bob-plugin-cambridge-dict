@@ -37,8 +37,8 @@ jobs:
         with:
           release_name: ${{ steps.get_version.outputs.version }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/bob-plugin-cambridge-dict_v${{ steps.get_version.outputs.version }}.bobplugin
-          asset_name: bob-plugin-cambridge-dict_v${{ steps.get_version.outputs.version }}.bobplugin
+          file: build/bob-plugin-cambridge-dict_${{ steps.get_version.outputs.version }}.bobplugin
+          asset_name: bob-plugin-cambridge-dict_${{ steps.get_version.outputs.version }}.bobplugin
           tag: ${{ github.ref }}
           overwrite: true
           body: ${{ steps.tag.outputs.message }}
