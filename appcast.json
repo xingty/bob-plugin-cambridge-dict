@@ -2,6 +2,13 @@
   "identifier": "org.wiyi.plugin.cambridge",
   "versions": [
     {
+      "version": "0.0.2",
+      "desc": "Release v0.0.2",
+      "sha256": "28ce57fa9b590d93ad7793530c0710308153a2e49eeb4fbfad0ecc3f5c088af9",
+      "url": "https://github.com/xingty/bob-plugin-cambridge-dict/releases/download/v0.0.2/bob-plugin-cambridge-dict_v0.0.2.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.0.1",
       "desc": "init",
       "sha256": "90b3e0f91fdfe64dedf884c2462fc0622705ce2fdb675f37719b48ac5e6de872",

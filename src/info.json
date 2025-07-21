@@ -1,15 +1,15 @@
 {
-	"identifier": "org.wiyi.plugin.cambridge",
-  "version": "0.0.1",
-	"category": "translate",
-	"name": "剑桥词典",
-	"summary": "剑桥词典",
-	"icon": "147",
-	"author": "bigcat",
-	"homepage": "https://github.com/xingty/bob-plugin-cambridge-dict",
-	"appcast": "https://raw.githubusercontent.com/xingty/bob-plugin-cambridge-dict/main/appcast.json",
-	"minBobVersion": "0.5.0",
-	"options": [
+  "identifier": "org.wiyi.plugin.cambridge",
+  "version": "0.0.2",
+  "category": "translate",
+  "name": "剑桥词典",
+  "summary": "剑桥词典",
+  "icon": "147",
+  "author": "bigcat",
+  "homepage": "https://github.com/xingty/bob-plugin-cambridge-dict",
+  "appcast": "https://raw.githubusercontent.com/xingty/bob-plugin-cambridge-dict/main/appcast.json",
+  "minBobVersion": "0.5.0",
+  "options": [
     {
       "identifier": "type",
       "type": "menu",
@@ -87,5 +87,5 @@
       "title": "Secret",
       "desc": "网页API不需填写"
     }
-	]
+  ]
 }
